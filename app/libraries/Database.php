@@ -71,7 +71,7 @@ class Database {
         return $this->stmt->fetch(PDO::FETCH_OBJ);
     }
 
-    public function reowCount(){
+    public function rowCount(){
         return $this->stmt->rowCount();
     }
 }
